@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown</title>
+    <style>
+        .container{
+            position: relative;
+        }
+        .navbar
+        {
+            background-color: cadetblue;
+            text-align: center;
+            padding: 20px;
+            
+            
+        }
+        .navbar a{
+            padding: 30px;
+            font-size: 28px;
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+            
+        }
+        .social-media a{
+            display: block;
+            background-color: cadetblue;
+            padding: 10px;
+            width: 80px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+            
+            
+            
+        }
+        .social-media{
+            position: absolute;
+            top: 67px;
+            right: 400px;
+            visibility: hidden;
+            
+            
+        }
+
+        .ok:hover .social-media {
+          visibility: visible;
+        }
+        .navbar a:hover{
+        color: blueviolet;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">About</a>
+            <a class="ok" href="#">Contact US</a>
+            
+        </div>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            
+        </div>
+    </div>
+    
+
+   
+</body>
+</html>
